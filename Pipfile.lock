@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "26c769a9493bc08f1028ffe58ff3a19af427ddac4590971f6d230a8d25b82f8b"
+            "sha256": "b03333b1b1f9e4500efdd5c206f0f85d2373ccdd9e6608e6866bc49dd06652ff"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,23 @@
             ],
             "index": "pypi",
             "version": "==0.15.1"
+        },
+        "gunicorn": {
+            "hashes": [
+                "sha256:23cbe968c6ae3c8efc3d118c8353fa0763efc2102d89d0d3cea696cede7ff6b1",
+                "sha256:573e053aa950246e307ea908bd7ddce1870d41a40aec0c935938c586f0b9b946"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.10'",
+            "version": "==25.0.1"
+        },
+        "packaging": {
+            "hashes": [
+                "sha256:00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4",
+                "sha256:b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==26.0"
         },
         "python-dateutil": {
             "hashes": [
@@ -62,6 +79,15 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
             "version": "==1.17.0"
+        },
+        "whitenoise": {
+            "hashes": [
+                "sha256:0f5bfce6061ae6611cd9396a8231e088722e4fc67bc13a111be74c738d99375f",
+                "sha256:b2aeb45950597236f53b5342b3121c5de69c8da0109362aee506ce88e022d258"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.9'",
+            "version": "==6.11.0"
         }
     },
     "develop": {}
